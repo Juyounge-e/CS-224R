@@ -1,1 +1,10 @@
-/.DS_Store
+.DS_Store
+
+.vscode/
+
+*.pdf
+*.tex
+
+*.pyc
+*.npz
+__pycache__/
