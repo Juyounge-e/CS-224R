@@ -1,0 +1,55 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.general.tags": [
+    "BUG",
+    "TODO",
+    "[ ]",
+    "[x]",
+    "NOTE",
+    "CHECKLIST"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "CHECKLIST": {
+      "background": "#20a904",
+      "foreground": "#ffffff",
+      "gutterIcon": true,
+      "icon": "check-circle-fill",
+      "iconColour": "#20a904",
+      "type": "text"
+    },
+    "NOTE": {
+      "background": "#ff0404",
+      "foreground": "#ffffff",
+      "gutterIcon": true,
+      "icon": "star-fill",
+      "iconColour": "#ffc404",
+      "type": "text"
+    },
+    "TODO": {
+      "background": "#b782f9",
+      "foreground": "#ffffff",
+      "gutterIcon": true,
+      "icon": "pin",
+      "iconColour": "#b782f9"
+    },
+    "[ ]": {
+      "background": "#f87364",
+      "foreground": "#ffffff",
+      "gutterIcon": true,
+      "icon": "x",
+      "iconColour": "#f87364",
+      "type": "text"
+    },
+    "[x]": {
+      "background": "#20a904",
+      "foreground": "#ffffff",
+      "gutterIcon": true,
+      "icon": "check",
+      "iconColour": "#20a904",
+      "type": "text"
+    }
+  },
+  "todo-tree.regex.regex": "((\\*|//|#|<!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+}
